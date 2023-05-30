@@ -1,16 +1,8 @@
 "use client";
 
 import { ColumnDef } from "@tanstack/react-table";
-import { MoreHorizontal } from "lucide-react";
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuLabel,
-  DropdownMenuSeparator,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
 import { DataTableColumnHeader } from "@/components/tableHeaderLogic";
+import NairaFormater from "../functions/NairaFormater";
 
 // This type is used to define the shape of our data.
 // You can use a Zod schema here if you want.
@@ -42,19 +34,15 @@ export const columns: ColumnDef<EmployeeDetailsProps>[] = [
       <DataTableColumnHeader
         column={column}
         title="Earning"
-        className="flex justify-center items-center"
+        className="flex justify-center items-center bg-green-200 rounded-md"
       />
     ),
     cell: ({ row }) => {
       const earnings = parseFloat(row.getValue("totalEarnings"));
-      const formatted = new Intl.NumberFormat("en-NG", {
-        style: "currency",
-        currency: "NGN",
-      }).format(earnings);
 
       return (
-        <div className=" flex justify-center items-center text-center font-medium">
-          {formatted}
+        <div className=" flex justify-center items-center text-center font-medium bg-green-200 p-2 rounded-md">
+          <NairaFormater amount={earnings} />
         </div>
       );
     },
@@ -65,19 +53,15 @@ export const columns: ColumnDef<EmployeeDetailsProps>[] = [
       <DataTableColumnHeader
         column={column}
         title="Deduction"
-        className="flex justify-center items-center"
+        className="flex justify-center items-center text-center bg-red-200 rounded-md"
       />
     ),
     cell: ({ row }) => {
       const deduction = parseFloat(row.getValue("totalDeductions"));
-      const formatted = new Intl.NumberFormat("en-NG", {
-        style: "currency",
-        currency: "NGN",
-      }).format(deduction);
 
       return (
-        <div className=" flex justify-center items-center text-center font-medium">
-          {formatted}
+        <div className=" flex justify-center items-center text-center font-medium bg-red-200 p-2 rounded-md">
+          <NairaFormater amount={deduction} />
         </div>
       );
     },
@@ -88,19 +72,15 @@ export const columns: ColumnDef<EmployeeDetailsProps>[] = [
       <DataTableColumnHeader
         column={column}
         title="Total"
-        className="flex justify-center items-center"
+        className="flex justify-center items-center text-center font-bold"
       />
     ),
     cell: ({ row }) => {
       const total = parseFloat(row.getValue("sumTotal"));
-      const formatted = new Intl.NumberFormat("en-NG", {
-        style: "currency",
-        currency: "NGN",
-      }).format(total);
 
       return (
-        <div className=" flex justify-center items-center text-center font-medium">
-          {formatted}
+        <div className=" flex justify-center items-center text-center font-bold">
+          <NairaFormater amount={total} />
         </div>
       );
     },

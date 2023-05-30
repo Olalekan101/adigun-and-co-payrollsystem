@@ -1,5 +1,5 @@
 "use client";
-import { DropdownState } from "@/app/states/State";
+import { create } from "zustand";
 import { Button } from "@/components/ui/button";
 import {
   DropdownMenu,
@@ -12,18 +12,18 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { useState } from "react";
 
-// type DropdownProps = {
-//   value1: string;
-//   value2: string;
-//   value3: string;
-//   value: string;
-//   setValue: React.Dispatch<React.SetStateAction<string>>;
-// };
+type DropdownProps = {
+  showDropValue: string;
+  setDropValue: () => void;
+};
+
+export const Dropdownstate = create<DropdownProps>((set) => ({
+  showDropValue: "",
+  setDropValue: () => set((state) => ({ showDropValue: state.showDropValue })),
+}));
 
 export function DropdownMenuComp() {
   const [value, setValue] = useState("");
-  const { setShow10, setShow30, setShow50, showValue } = DropdownState();
-
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>

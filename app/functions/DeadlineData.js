@@ -1,6 +1,5 @@
 "use client";
 import { useEffect, useState } from "react";
-import { AiOutlineLoading3Quarters } from "react-icons/ai";
 
 function DeadlineLogic() {
   const currentDate = new Date();
@@ -36,7 +35,7 @@ export default function DeadlineDate() {
         date
       ) : (
         <div className="animate-spin flex justify-center items-center w-full  text-sm font-normal">
-          <img src="../../public/Spin.svg" />
+          loading...
         </div>
       )}
     </>

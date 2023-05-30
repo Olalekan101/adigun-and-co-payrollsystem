@@ -13,12 +13,6 @@ import {
 } from "@tanstack/react-table";
 
 import {
-  Popover,
-  PopoverContent,
-  PopoverTrigger,
-} from "@/components/ui/popover";
-
-import {
   Table,
   TableBody,
   TableCell,
@@ -32,9 +26,9 @@ import { Input } from "@/components/ui/input";
 import * as React from "react";
 import { Button } from "@/components/ui/button";
 import { DropdownMenuComp } from "../../components/DropdownMenu";
-import { DropdownState } from "../states/State";
-import PopoverComp from "@/components/Popover";
 import EmployeeTotalSum from "../data/employeeDataWithSum";
+import { EmployeeModel } from "@/components/Model";
+import { Dropdownstate } from "../../components/DropdownMenu";
 
 interface DataTableProps<TData, TValue> {
   columns: ColumnDef<TData, TValue>[];
@@ -48,15 +42,16 @@ export function DataTable<TData, TValue>({
   const [columnFilters, setColumnFilters] = useState<ColumnFiltersState>([]);
   const [sorting, setSorting] = React.useState<SortingState>([]);
   const [dropdownToggle, setDropdownToggle] = useState("10");
-  const [ids, setIds] = useState(undefined);
-  const { setShow10, setShow30, setShow50, showValue } = DropdownState();
+  const [ids, setIds] = useState(0);
+  const [modelToggle, setModelToggle] = useState(false);
   const popoverData = EmployeeTotalSum();
   const filterData = popoverData.filter((x) => x.id === ids);
-
+  const showDropValue = Dropdownstate((state) => state.showDropValue);
+  const num = parseInt(showDropValue);
   const [{ pageIndex, pageSize }, setPagination] =
     React.useState<PaginationState>({
       pageIndex: 0,
-      pageSize: showValue,
+      pageSize: 10,
     });
 
   const pagination = React.useMemo(
@@ -85,11 +80,21 @@ export function DataTable<TData, TValue>({
   });
 
   const handleclick = (id: string) => {
+    // @ts-ignore
     setIds(parseInt(id) + 1);
+    setModelToggle((prev) => !prev);
   };
 
   return (
     <>
+      {modelToggle && (
+        <EmployeeModel
+          key={ids}
+          id={ids}
+          isOpen={modelToggle}
+          setIsOpen={() => setModelToggle((prev) => !prev)}
+        />
+      )}
       <div className="flex items-center py-4">
         <Input
           placeholder="Search Employee"
