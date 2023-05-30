@@ -1,0 +1,1204 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "John Smith",
+      "cadrelevel": "Entry Level",
+      "position": "Junior Developer",
+      "earnings": {
+        "basicSalary": 4000,
+        "overtimePay": 200,
+        "bonus": 500,
+        "allowances": {
+          "housingAllowance": 500,
+          "transportationAllowance": 200
+        },
+        "performancePay": 300
+      },
+      "deductions": {
+        "incomeTax": 500,
+        "socialSecurity": 200,
+        "healthInsurance": 100,
+        "retirementContributions": 300,
+        "loanRepayments": 100,
+        "otherDeductions": 50
+      }
+    },
+    {
+      "id": 2,
+      "name": "Emily Johnson",
+      "cadrelevel": "Professional",
+      "position": "Senior Engineer",
+      "earnings": {
+        "basicSalary": 5000,
+        "overtimePay": 400,
+        "bonus": 1000,
+        "allowances": {
+          "housingAllowance": 1000,
+          "transportationAllowance": 400
+        },
+        "performancePay": 500
+      },
+      "deductions": {
+        "incomeTax": 1000,
+        "socialSecurity": 400,
+        "healthInsurance": 150,
+        "retirementContributions": 800,
+        "loanRepayments": 200,
+        "otherDeductions": 100
+      }
+    },
+    {
+      "id": 3,
+      "name": "Sarah Wilson",
+      "cadrelevel": "Entry Level",
+      "position": "Assistant Accountant",
+      "earnings": {
+        "basicSalary": 2500,
+        "overtimePay": 150,
+        "bonus": 300,
+        "allowances": {
+          "housingAllowance": 400,
+          "transportationAllowance": 150
+        },
+        "performancePay": 200
+      },
+      "deductions": {
+        "incomeTax": 400,
+        "socialSecurity": 150,
+        "healthInsurance": 80,
+        "retirementContributions": 200,
+        "loanRepayments": 50,
+        "otherDeductions": 20
+      }
+    },
+    {
+      "id": 4,
+      "name": "Michael Thompson",
+      "cadrelevel": "Manager",
+      "position": "Project Manager",
+      "earnings": {
+        "basicSalary": 8000,
+        "overtimePay": 800,
+        "bonus": 2000,
+        "allowances": {
+          "housingAllowance": 1500,
+          "transportationAllowance": 800
+        },
+        "performancePay": 1000
+      },
+      "deductions": {
+        "incomeTax": 1500,
+        "socialSecurity": 800,
+        "healthInsurance": 300,
+        "retirementContributions": 1200,
+        "loanRepayments": 300,
+        "otherDeductions": 150
+      }
+    },
+    {
+      "id": 5,
+      "name": "Jessica Davis",
+      "cadrelevel": "Professional",
+      "position": "Senior Analyst",
+      "earnings": {
+        "basicSalary": 5500,
+        "overtimePay": 500,
+        "bonus": 1500,
+        "allowances": {
+          "housingAllowance": 1200,
+          "transportationAllowance": 500
+        },
+        "performancePay": 600
+      },
+      "deductions": {
+        "incomeTax": 1200,
+        "socialSecurity": 500,
+        "healthInsurance": 200,
+        "retirementContributions": 900,
+        "loanRepayments": 250,
+        "otherDeductions": 100
+      }
+    },
+    {
+      "id": 6,
+      "name": "Andrew Wilson",
+      "cadrelevel": "Entry Level",
+      "position": "Junior Designer",
+      "earnings": {
+        "basicSalary": 2800,
+        "overtimePay": 180,
+        "bonus": 400,
+        "allowances": {
+          "housingAllowance": 400,
+          "transportationAllowance": 180
+        },
+        "performancePay": 250
+      },
+      "deductions": {
+        "incomeTax": 450,
+        "socialSecurity": 180,
+        "healthInsurance": 90,
+        "retirementContributions": 250,
+        "loanRepayments": 80,
+        "otherDeductions": 40
+      }
+    },
+    {
+      "id": 7,
+      "name": "Olivia Anderson",
+      "cadrelevel": "Professional",
+      "position": "Senior Manager",
+      "earnings": {
+        "basicSalary": 7000,
+        "overtimePay": 700,
+        "bonus": 1800,
+        "allowances": {
+          "housingAllowance": 1400,
+          "transportationAllowance": 700
+        },
+        "performancePay": 900
+      },
+      "deductions": {
+        "incomeTax": 1300,
+        "socialSecurity": 700,
+        "healthInsurance": 250,
+        "retirementContributions": 1000,
+        "loanRepayments": 300,
+        "otherDeductions": 120
+      }
+    },
+    {
+      "id": 8,
+      "name": "William Garcia",
+      "cadrelevel": "Entry Level",
+      "position": "Junior Accountant",
+      "earnings": {
+        "basicSalary": 2600,
+        "overtimePay": 160,
+        "bonus": 350,
+        "allowances": {
+          "housingAllowance": 350,
+          "transportationAllowance": 160
+        },
+        "performancePay": 200
+      },
+      "deductions": {
+        "incomeTax": 400,
+        "socialSecurity": 160,
+        "healthInsurance": 80,
+        "retirementContributions": 200,
+        "loanRepayments": 70,
+        "otherDeductions": 30
+      }
+    },
+    {
+      "id": 9,
+      "name": "Sophia Martinez",
+      "cadrelevel": "Professional",
+      "position": "Data Scientist",
+      "earnings": {
+        "basicSalary": 6000,
+        "overtimePay": 600,
+        "bonus": 1600,
+        "allowances": {
+          "housingAllowance": 1300,
+          "transportationAllowance": 600
+        },
+        "performancePay": 800
+      },
+      "deductions": {
+        "incomeTax": 1100,
+        "socialSecurity": 600,
+        "healthInsurance": 230,
+        "retirementContributions": 900,
+        "loanRepayments": 250,
+        "otherDeductions": 100
+      }
+    },
+    {
+      "id": 10,
+      "name": "Daniel Wilson",
+      "cadrelevel": "Manager",
+      "position": "Operations Manager",
+      "earnings": {
+        "basicSalary": 7500,
+        "overtimePay": 750,
+        "bonus": 1900,
+        "allowances": {
+          "housingAllowance": 1600,
+          "transportationAllowance": 750
+        },
+        "performancePay": 1000
+      },
+      "deductions": {
+        "incomeTax": 1400,
+        "socialSecurity": 750,
+        "healthInsurance": 280,
+        "retirementContributions": 1100,
+        "loanRepayments": 320,
+        "otherDeductions": 150
+      }
+    },
+    {
+      "id": 11,
+      "name": "Isabella Thomas",
+      "cadrelevel": "Entry Level",
+      "position": "Junior Analyst",
+      "earnings": {
+        "basicSalary": 2800,
+        "overtimePay": 180,
+        "bonus": 400,
+        "allowances": {
+          "housingAllowance": 400,
+          "transportationAllowance": 180
+        },
+        "performancePay": 250
+      },
+      "deductions": {
+        "incomeTax": 450,
+        "socialSecurity": 180,
+        "healthInsurance": 90,
+        "retirementContributions": 250,
+        "loanRepayments": 80,
+        "otherDeductions": 40
+      }
+    },
+    {
+      "id": 12,
+      "name": "Mia Lewis",
+      "cadrelevel": "Professional",
+      "position": "Senior Architect",
+      "earnings": {
+        "basicSalary": 5800,
+        "overtimePay": 550,
+        "bonus": 1400,
+        "allowances": {
+          "housingAllowance": 1200,
+          "transportationAllowance": 550
+        },
+        "performancePay": 700
+      },
+      "deductions": {
+        "incomeTax": 1100,
+        "socialSecurity": 550,
+        "healthInsurance": 220,
+        "retirementContributions": 800,
+        "loanRepayments": 200,
+        "otherDeductions": 90
+      }
+    },
+    {
+      "id": 13,
+      "name": "James Moore",
+      "cadrelevel": "Entry Level",
+      "position": "Junior Engineer",
+      "earnings": {
+        "basicSalary": 3000,
+        "overtimePay": 200,
+        "bonus": 500,
+        "allowances": {
+          "housingAllowance": 500,
+          "transportationAllowance": 200
+        },
+        "performancePay": 300
+      },
+      "deductions": {
+        "incomeTax": 500,
+        "socialSecurity": 200,
+        "healthInsurance": 100,
+        "retirementContributions": 300,
+        "loanRepayments": 100,
+        "otherDeductions": 50
+      }
+    },
+    {
+      "id": 14,
+      "name": "Charlotte Clark",
+      "cadrelevel": "Professional",
+      "position": "Senior Consultant",
+      "earnings": {
+        "basicSalary": 5500,
+        "overtimePay": 500,
+        "bonus": 1500,
+        "allowances": {
+          "housingAllowance": 1200,
+          "transportationAllowance": 500
+        },
+        "performancePay": 600
+      },
+      "deductions": {
+        "incomeTax": 1200,
+        "socialSecurity": 500,
+        "healthInsurance": 200,
+        "retirementContributions": 900,
+        "loanRepayments": 250,
+        "otherDeductions": 100
+      }
+    },
+    {
+      "id": 15,
+      "name": "Benjamin Walker",
+      "cadrelevel": "Entry Level",
+      "position": "Junior Developer",
+      "earnings": {
+        "basicSalary": 3200,
+        "overtimePay": 220,
+        "bonus": 600,
+        "allowances": {
+          "housingAllowance": 600,
+          "transportationAllowance": 220
+        },
+        "performancePay": 350
+      },
+      "deductions": {
+        "incomeTax": 600,
+        "socialSecurity": 220,
+        "healthInsurance": 120,
+        "retirementContributions": 350,
+        "loanRepayments": 120,
+        "otherDeductions": 50
+      }
+    },
+    {
+      "id": 16,
+      "name": "Harper Young",
+      "cadrelevel": "Professional",
+      "position": "Senior Engineer",
+      "earnings": {
+        "basicSalary": 5200,
+        "overtimePay": 450,
+        "bonus": 1200,
+        "allowances": {
+          "housingAllowance": 1000,
+          "transportationAllowance": 450
+        },
+        "performancePay": 550
+      },
+      "deductions": {
+        "incomeTax": 1000,
+        "socialSecurity": 450,
+        "healthInsurance": 180,
+        "retirementContributions": 800,
+        "loanRepayments": 200,
+        "otherDeductions": 80
+      }
+    },
+    {
+      "id": 17,
+      "name": "Evelyn Perez",
+      "cadrelevel": "Entry Level",
+      "position": "Assistant Accountant",
+      "earnings": {
+        "basicSalary": 2400,
+        "overtimePay": 140,
+        "bonus": 300,
+        "allowances": {
+          "housingAllowance": 350,
+          "transportationAllowance": 140
+        },
+        "performancePay": 200
+      },
+      "deductions": {
+        "incomeTax": 350,
+        "socialSecurity": 140,
+        "healthInsurance": 70,
+        "retirementContributions": 200,
+        "loanRepayments": 60,
+        "otherDeductions": 30
+      }
+    },
+    {
+      "id": 18,
+      "name": "Alexander Scott",
+      "cadrelevel": "Manager",
+      "position": "Project Manager",
+      "earnings": {
+        "basicSalary": 7800,
+        "overtimePay": 750,
+        "bonus": 1900,
+        "allowances": {
+          "housingAllowance": 1600,
+          "transportationAllowance": 750
+        },
+        "performancePay": 1000
+      },
+      "deductions": {
+        "incomeTax": 1400,
+        "socialSecurity": 750,
+        "healthInsurance": 280,
+        "retirementContributions": 1100,
+        "loanRepayments": 320,
+        "otherDeductions": 150
+      }
+    },
+    {
+      "id": 19,
+      "name": "Victoria Rodriguez",
+      "cadrelevel": "Professional",
+      "position": "Senior Analyst",
+      "earnings": {
+        "basicSalary": 5000,
+        "overtimePay": 450,
+        "bonus": 1200,
+        "allowances": {
+          "housingAllowance": 1000,
+          "transportationAllowance": 450
+        },
+        "performancePay": 550
+      },
+      "deductions": {
+        "incomeTax": 1000,
+        "socialSecurity": 450,
+        "healthInsurance": 180,
+        "retirementContributions": 800,
+        "loanRepayments": 200,
+        "otherDeductions": 80
+      }
+    },
+    {
+      "id": 20,
+      "name": "Thomas Hernandez",
+      "cadrelevel": "Entry Level",
+      "position": "Junior Designer",
+      "earnings": {
+        "basicSalary": 2600,
+        "overtimePay": 160,
+        "bonus": 350,
+        "allowances": {
+          "housingAllowance": 350,
+          "transportationAllowance": 160
+        },
+        "performancePay": 200
+      },
+      "deductions": {
+        "incomeTax": 400,
+        "socialSecurity": 160,
+        "healthInsurance": 80,
+        "retirementContributions": 200,
+        "loanRepayments": 70,
+        "otherDeductions": 30
+      }
+    },
+    {
+      "id": 21,
+      "name": "Sophia Davis",
+      "cadrelevel": "Professional",
+      "position": "Senior Manager",
+      "earnings": {
+        "basicSalary": 6800,
+        "overtimePay": 700,
+        "bonus": 1800,
+        "allowances": {
+          "housingAllowance": 1400,
+          "transportationAllowance": 700
+        },
+        "performancePay": 900
+      },
+      "deductions": {
+        "incomeTax": 1300,
+        "socialSecurity": 700,
+        "healthInsurance": 250,
+        "retirementContributions": 1000,
+        "loanRepayments": 300,
+        "otherDeductions": 120
+      }
+    },
+    {
+      "id": 22,
+      "name": "Joseph Stewart",
+      "cadrelevel": "Entry Level",
+      "position": "Junior Accountant",
+      "earnings": {
+        "basicSalary": 2500,
+        "overtimePay": 150,
+        "bonus": 300,
+        "allowances": {
+          "housingAllowance": 400,
+          "transportationAllowance": 150
+        },
+        "performancePay": 200
+      },
+      "deductions": {
+        "incomeTax": 400,
+        "socialSecurity": 150,
+        "healthInsurance": 80,
+        "retirementContributions": 200,
+        "loanRepayments": 50,
+        "otherDeductions": 20
+      }
+    },
+    {
+      "id": 23,
+      "name": "Sofia Young",
+      "cadrelevel": "Professional",
+      "position": "Data Scientist",
+      "earnings": {
+        "basicSalary": 5500,
+        "overtimePay": 500,
+        "bonus": 1500,
+        "allowances": {
+          "housingAllowance": 1200,
+          "transportationAllowance": 500
+        },
+        "performancePay": 600
+      },
+      "deductions": {
+        "incomeTax": 1200,
+        "socialSecurity": 500,
+        "healthInsurance": 200,
+        "retirementContributions": 900,
+        "loanRepayments": 250,
+        "otherDeductions": 100
+      }
+    },
+    {
+      "id": 24,
+      "name": "Jackson Clark",
+      "cadrelevel": "Entry Level",
+      "position": "Junior Developer",
+      "earnings": {
+        "basicSalary": 3200,
+        "overtimePay": 220,
+        "bonus": 600,
+        "allowances": {
+          "housingAllowance": 600,
+          "transportationAllowance": 220
+        },
+        "performancePay": 350
+      },
+      "deductions": {
+        "incomeTax": 600,
+        "socialSecurity": 220,
+        "healthInsurance": 120,
+        "retirementContributions": 350,
+        "loanRepayments": 120,
+        "otherDeductions": 50
+      }
+    },
+    {
+      "id": 25,
+      "name": "Ava Baker",
+      "cadrelevel": "Professional",
+      "position": "Senior Engineer",
+      "earnings": {
+        "basicSalary": 5200,
+        "overtimePay": 450,
+        "bonus": 1200,
+        "allowances": {
+          "housingAllowance": 1000,
+          "transportationAllowance": 450
+        },
+        "performancePay": 550
+      },
+      "deductions": {
+        "incomeTax": 1000,
+        "socialSecurity": 450,
+        "healthInsurance": 180,
+        "retirementContributions": 800,
+        "loanRepayments": 200,
+        "otherDeductions": 80
+      }
+    },
+    {
+      "id": 26,
+      "name": "Scarlett Lewis",
+      "cadrelevel": "Entry Level",
+      "position": "Junior Analyst",
+      "earnings": {
+        "basicSalary": 2800,
+        "overtimePay": 180,
+        "bonus": 400,
+        "allowances": {
+          "housingAllowance": 400,
+          "transportationAllowance": 180
+        },
+        "performancePay": 250
+      },
+      "deductions": {
+        "incomeTax": 450,
+        "socialSecurity": 180,
+        "healthInsurance": 90,
+        "retirementContributions": 250,
+        "loanRepayments": 80,
+        "otherDeductions": 40
+      }
+    },
+    {
+      "id": 27,
+      "name": "Henry Thomas",
+      "cadrelevel": "Professional",
+      "position": "Senior Architect",
+      "earnings": {
+        "basicSalary": 5800,
+        "overtimePay": 550,
+        "bonus": 1400,
+        "allowances": {
+          "housingAllowance": 1200,
+          "transportationAllowance": 550
+        },
+        "performancePay": 700
+      },
+      "deductions": {
+        "incomeTax": 1100,
+        "socialSecurity": 550,
+        "healthInsurance": 220,
+        "retirementContributions": 800,
+        "loanRepayments": 200,
+        "otherDeductions": 90
+      }
+    },
+    {
+      "id": 28,
+      "name": "Liam Moore",
+      "cadrelevel": "Entry Level",
+      "position": "Junior Engineer",
+      "earnings": {
+        "basicSalary": 3000,
+        "overtimePay": 200,
+        "bonus": 500,
+        "allowances": {
+          "housingAllowance": 500,
+          "transportationAllowance": 200
+        },
+        "performancePay": 300
+      },
+      "deductions": {
+        "incomeTax": 500,
+        "socialSecurity": 200,
+        "healthInsurance": 100,
+        "retirementContributions": 300,
+        "loanRepayments": 100,
+        "otherDeductions": 50
+      }
+    },
+    {
+      "id": 29,
+      "name": "Penelope Clark",
+      "cadrelevel": "Professional",
+      "position": "Senior Consultant",
+      "earnings": {
+        "basicSalary": 5500,
+        "overtimePay": 500,
+        "bonus": 1500,
+        "allowances": {
+          "housingAllowance": 1200,
+          "transportationAllowance": 500
+        },
+        "performancePay": 600
+      },
+      "deductions": {
+        "incomeTax": 1200,
+        "socialSecurity": 500,
+        "healthInsurance": 200,
+        "retirementContributions": 900,
+        "loanRepayments": 250,
+        "otherDeductions": 100
+      }
+    },
+    {
+      "id": 30,
+      "name": "Leo Young",
+      "cadrelevel": "Entry Level",
+      "position": "Junior Developer",
+      "earnings": {
+        "basicSalary": 3200,
+        "overtimePay": 220,
+        "bonus": 600,
+        "allowances": {
+          "housingAllowance": 600,
+          "transportationAllowance": 220
+        },
+        "performancePay": 350
+      },
+      "deductions": {
+        "incomeTax": 600,
+        "socialSecurity": 220,
+        "healthInsurance": 120,
+        "retirementContributions": 350,
+        "loanRepayments": 120,
+        "otherDeductions": 50
+      }
+    },
+    {
+      "id": 31,
+      "name": "Grace Perez",
+      "cadrelevel": "Professional",
+      "position": "Senior Engineer",
+      "earnings": {
+        "basicSalary": 5200,
+        "overtimePay": 450,
+        "bonus": 1200,
+        "allowances": {
+          "housingAllowance": 1000,
+          "transportationAllowance": 450
+        },
+        "performancePay": 550
+      },
+      "deductions": {
+        "incomeTax": 1000,
+        "socialSecurity": 450,
+        "healthInsurance": 180,
+        "retirementContributions": 800,
+        "loanRepayments": 200,
+        "otherDeductions": 80
+      }
+    },
+    {
+      "id": 32,
+      "name": "Ruby Evans",
+      "cadrelevel": "Entry Level",
+      "position": "Assistant Accountant",
+      "earnings": {
+        "basicSalary": 2400,
+        "overtimePay": 140,
+        "bonus": 300,
+        "allowances": {
+          "housingAllowance": 350,
+          "transportationAllowance": 140
+        },
+        "performancePay": 200
+      },
+      "deductions": {
+        "incomeTax": 350,
+        "socialSecurity": 140,
+        "healthInsurance": 70,
+        "retirementContributions": 200,
+        "loanRepayments": 60,
+        "otherDeductions": 30
+      }
+    },
+    {
+      "id": 33,
+      "name": "Maxwell Brooks",
+      "cadrelevel": "Manager",
+      "position": "Project Manager",
+      "earnings": {
+        "basicSalary": 7800,
+        "overtimePay": 750,
+        "bonus": 1900,
+        "allowances": {
+          "housingAllowance": 1600,
+          "transportationAllowance": 750
+        },
+        "performancePay": 1000
+      },
+      "deductions": {
+        "incomeTax": 1400,
+        "socialSecurity": 750,
+        "healthInsurance": 280,
+        "retirementContributions": 1100,
+        "loanRepayments": 320,
+        "otherDeductions": 150
+      }
+    },
+    {
+      "id": 34,
+      "name": "Emma Walker",
+      "cadrelevel": "Professional",
+      "position": "Senior Analyst",
+      "earnings": {
+        "basicSalary": 5000,
+        "overtimePay": 450,
+        "bonus": 1200,
+        "allowances": {
+          "housingAllowance": 1000,
+          "transportationAllowance": 450
+        },
+        "performancePay": 550
+      },
+      "deductions": {
+        "incomeTax": 1000,
+        "socialSecurity": 450,
+        "healthInsurance": 180,
+        "retirementContributions": 800,
+        "loanRepayments": 200,
+        "otherDeductions": 80
+      }
+    },
+    {
+      "id": 35,
+      "name": "Oliver Hernandez",
+      "cadrelevel": "Entry Level",
+      "position": "Junior Designer",
+      "earnings": {
+        "basicSalary": 2600,
+        "overtimePay": 160,
+        "bonus": 350,
+        "allowances": {
+          "housingAllowance": 350,
+          "transportationAllowance": 160
+        },
+        "performancePay": 200
+      },
+      "deductions": {
+        "incomeTax": 400,
+        "socialSecurity": 160,
+        "healthInsurance": 80,
+        "retirementContributions": 200,
+        "loanRepayments": 70,
+        "otherDeductions": 30
+      }
+    },
+    {
+      "id": 36,
+      "name": "Isabella Davis",
+      "cadrelevel": "Professional",
+      "position": "Senior Manager",
+      "earnings": {
+        "basicSalary": 6800,
+        "overtimePay": 700,
+        "bonus": 1800,
+        "allowances": {
+          "housingAllowance": 1400,
+          "transportationAllowance": 700
+        },
+        "performancePay": 900
+      },
+      "deductions": {
+        "incomeTax": 1300,
+        "socialSecurity": 700,
+        "healthInsurance": 250,
+        "retirementContributions": 1000,
+        "loanRepayments": 300,
+        "otherDeductions": 120
+      }
+    },
+    {
+      "id": 37,
+      "name": "Mia Stewart",
+      "cadrelevel": "Entry Level",
+      "position": "Junior Accountant",
+      "earnings": {
+        "basicSalary": 2500,
+        "overtimePay": 150,
+        "bonus": 300,
+        "allowances": {
+          "housingAllowance": 400,
+          "transportationAllowance": 150
+        },
+        "performancePay": 200
+      },
+      "deductions": {
+        "incomeTax": 400,
+        "socialSecurity": 150,
+        "healthInsurance": 80,
+        "retirementContributions": 200,
+        "loanRepayments": 50,
+        "otherDeductions": 20
+      }
+    },
+    {
+      "id": 38,
+      "name": "Charlotte Young",
+      "cadrelevel": "Professional",
+      "position": "Data Scientist",
+      "earnings": {
+        "basicSalary": 5500,
+        "overtimePay": 500,
+        "bonus": 1500,
+        "allowances": {
+          "housingAllowance": 1200,
+          "transportationAllowance": 500
+        },
+        "performancePay": 600
+      },
+      "deductions": {
+        "incomeTax": 1200,
+        "socialSecurity": 500,
+        "healthInsurance": 200,
+        "retirementContributions": 900,
+        "loanRepayments": 250,
+        "otherDeductions": 100
+      }
+    },
+    {
+      "id": 39,
+      "name": "Aiden Clark",
+      "cadrelevel": "Entry Level",
+      "position": "Junior Developer",
+      "earnings": {
+        "basicSalary": 3200,
+        "overtimePay": 220,
+        "bonus": 600,
+        "allowances": {
+          "housingAllowance": 600,
+          "transportationAllowance": 220
+        },
+        "performancePay": 350
+      },
+      "deductions": {
+        "incomeTax": 600,
+        "socialSecurity": 220,
+        "healthInsurance": 120,
+        "retirementContributions": 350,
+        "loanRepayments": 120,
+        "otherDeductions": 50
+      }
+    },
+    {
+      "id": 40,
+      "name": "Amelia Baker",
+      "cadrelevel": "Professional",
+      "position": "Senior Engineer",
+      "earnings": {
+        "basicSalary": 5200,
+        "overtimePay": 450,
+        "bonus": 1200,
+        "allowances": {
+          "housingAllowance": 1000,
+          "transportationAllowance": 450
+        },
+        "performancePay": 550
+      },
+      "deductions": {
+        "incomeTax": 1000,
+        "socialSecurity": 450,
+        "healthInsurance": 180,
+        "retirementContributions": 800,
+        "loanRepayments": 200,
+        "otherDeductions": 80
+      }
+    },
+    {
+      "id": 41,
+      "name": "Luna Lewis",
+      "cadrelevel": "Entry Level",
+      "position": "Junior Analyst",
+      "earnings": {
+        "basicSalary": 2800,
+        "overtimePay": 180,
+        "bonus": 400,
+        "allowances": {
+          "housingAllowance": 400,
+          "transportationAllowance": 180
+        },
+        "performancePay": 250
+      },
+      "deductions": {
+        "incomeTax": 450,
+        "socialSecurity": 180,
+        "healthInsurance": 90,
+        "retirementContributions": 250,
+        "loanRepayments": 80,
+        "otherDeductions": 40
+      }
+    },
+    {
+      "id": 42,
+      "name": "Ethan Thomas",
+      "cadrelevel": "Professional",
+      "position": "Senior Architect",
+      "earnings": {
+        "basicSalary": 5800,
+        "overtimePay": 550,
+        "bonus": 1400,
+        "allowances": {
+          "housingAllowance": 1200,
+          "transportationAllowance": 550
+        },
+        "performancePay": 700
+      },
+      "deductions": {
+        "incomeTax": 1100,
+        "socialSecurity": 550,
+        "healthInsurance": 220,
+        "retirementContributions": 800,
+        "loanRepayments": 200,
+        "otherDeductions": 90
+      }
+    },
+    {
+      "id": 43,
+      "name": "Henry Walker",
+      "cadrelevel": "Entry Level",
+      "position": "Junior Engineer",
+      "earnings": {
+        "basicSalary": 3000,
+        "overtimePay": 200,
+        "bonus": 500,
+        "allowances": {
+          "housingAllowance": 500,
+          "transportationAllowance": 200
+        },
+        "performancePay": 300
+      },
+      "deductions": {
+        "incomeTax": 500,
+        "socialSecurity": 200,
+        "healthInsurance": 100,
+        "retirementContributions": 300,
+        "loanRepayments": 100,
+        "otherDeductions": 50
+      }
+    },
+    {
+      "id": 44,
+      "name": "Sophia Perez",
+      "cadrelevel": "Professional",
+      "position": "Senior Consultant",
+      "earnings": {
+        "basicSalary": 5500,
+        "overtimePay": 500,
+        "bonus": 1500,
+        "allowances": {
+          "housingAllowance": 1200,
+          "transportationAllowance": 500
+        },
+        "performancePay": 600
+      },
+      "deductions": {
+        "incomeTax": 1200,
+        "socialSecurity": 500,
+        "healthInsurance": 200,
+        "retirementContributions": 900,
+        "loanRepayments": 250,
+        "otherDeductions": 100
+      }
+    },
+    {
+      "id": 45,
+      "name": "Daniel Young",
+      "cadrelevel": "Entry Level",
+      "position": "Junior Developer",
+      "earnings": {
+        "basicSalary": 3200,
+        "overtimePay": 220,
+        "bonus": 600,
+        "allowances": {
+          "housingAllowance": 600,
+          "transportationAllowance": 220
+        },
+        "performancePay": 350
+      },
+      "deductions": {
+        "incomeTax": 600,
+        "socialSecurity": 220,
+        "healthInsurance": 120,
+        "retirementContributions": 350,
+        "loanRepayments": 120,
+        "otherDeductions": 50
+      }
+    },
+    {
+      "id": 46,
+      "name": "Sofia Perez",
+      "cadrelevel": "Professional",
+      "position": "Senior Engineer",
+      "earnings": {
+        "basicSalary": 5200,
+        "overtimePay": 450,
+        "bonus": 1200,
+        "allowances": {
+          "housingAllowance": 1000,
+          "transportationAllowance": 450
+        },
+        "performancePay": 550
+      },
+      "deductions": {
+        "incomeTax": 1000,
+        "socialSecurity": 450,
+        "healthInsurance": 180,
+        "retirementContributions": 800,
+        "loanRepayments": 200,
+        "otherDeductions": 80
+      }
+    },
+    {
+      "id": 47,
+      "name": "Elijah Evans",
+      "cadrelevel": "Entry Level",
+      "position": "Assistant Accountant",
+      "earnings": {
+        "basicSalary": 2400,
+        "overtimePay": 140,
+        "bonus": 300,
+        "allowances": {
+          "housingAllowance": 350,
+          "transportationAllowance": 140
+        },
+        "performancePay": 200
+      },
+      "deductions": {
+        "incomeTax": 350,
+        "socialSecurity": 140,
+        "healthInsurance": 70,
+        "retirementContributions": 200,
+        "loanRepayments": 60,
+        "otherDeductions": 30
+      }
+    },
+    {
+      "id": 48,
+      "name": "Matthew Brooks",
+      "cadrelevel": "Manager",
+      "position": "Project Manager",
+      "earnings": {
+        "basicSalary": 7800,
+        "overtimePay": 750,
+        "bonus": 1900,
+        "allowances": {
+          "housingAllowance": 1600,
+          "transportationAllowance": 750
+        },
+        "performancePay": 1000
+      },
+      "deductions": {
+        "incomeTax": 1400,
+        "socialSecurity": 750,
+        "healthInsurance": 280,
+        "retirementContributions": 1100,
+        "loanRepayments": 320,
+        "otherDeductions": 150
+      }
+    },
+    {
+      "id": 49,
+      "name": "Ava Walker",
+      "cadrelevel": "Professional",
+      "position": "Senior Analyst",
+      "earnings": {
+        "basicSalary": 5000,
+        "overtimePay": 450,
+        "bonus": 1200,
+        "allowances": {
+          "housingAllowance": 1000,
+          "transportationAllowance": 450
+        },
+        "performancePay": 550
+      },
+      "deductions": {
+        "incomeTax": 1000,
+        "socialSecurity": 450,
+        "healthInsurance": 180,
+        "retirementContributions": 800,
+        "loanRepayments": 200,
+        "otherDeductions": 80
+      }
+    },
+    {
+      "id": 50,
+      "name": "Harper Hernandez",
+      "cadrelevel": "Entry Level",
+      "position": "Junior Designer",
+      "earnings": {
+        "basicSalary": 2600,
+        "overtimePay": 160,
+        "bonus": 350,
+        "allowances": {
+          "housingAllowance": 350,
+          "transportationAllowance": 160
+        },
+        "performancePay": 200
+      },
+      "deductions": {
+        "incomeTax": 400,
+        "socialSecurity": 160,
+        "healthInsurance": 80,
+        "retirementContributions": 200,
+        "loanRepayments": 70,
+        "otherDeductions": 30
+      }
+    }
+  ]
+}
