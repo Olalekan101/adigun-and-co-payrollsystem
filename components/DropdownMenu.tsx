@@ -18,12 +18,15 @@ type DropdownProps = {
 };
 
 export const Dropdownstate = create<DropdownProps>((set) => ({
-  showDropValue: "",
-  setDropValue: () => set((state) => ({ showDropValue: state.showDropValue })),
+  showDropValue: "10",
+  // @ts-ignore
+  setDropValue: (value) => ({ showDropValue: value.showDropValue }),
 }));
 
 export function DropdownMenuComp() {
-  const [value, setValue] = useState("");
+  const [value, setValue] = useState("10");
+  const valuex = Dropdownstate.setState({ showDropValue: value });
+
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>

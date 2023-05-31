@@ -44,10 +44,8 @@ export function DataTable<TData, TValue>({
   const [dropdownToggle, setDropdownToggle] = useState("10");
   const [ids, setIds] = useState(0);
   const [modelToggle, setModelToggle] = useState(false);
-  const popoverData = EmployeeTotalSum();
-  const filterData = popoverData.filter((x) => x.id === ids);
   const showDropValue = Dropdownstate((state) => state.showDropValue);
-  const num = parseInt(showDropValue);
+
   const [{ pageIndex, pageSize }, setPagination] =
     React.useState<PaginationState>({
       pageIndex: 0,
@@ -166,9 +164,9 @@ export function DataTable<TData, TValue>({
             {table.getState().pagination.pageIndex + 1} of{" "}
             {table.getPageCount()}
           </div>
-          <div>
+          {/* <div>
             <DropdownMenuComp />
-          </div>
+          </div> */}
           <Button
             variant="outline"
             size="sm"

@@ -3,7 +3,7 @@ import EmployeeTotalSum from "@/app/data/employeeDataWithSum";
 import DeadlineDate from "../app/functions/DeadlineData";
 import NairaFormater from "../app/functions/NairaFormater";
 import Wordseprator from "../app/functions/WordSeprator";
-import { useState } from "react";
+import { useState, useEffect, use } from "react";
 import { motion } from "framer-motion";
 
 const cadreLevelCounts = EmployeeTotalSum().reduce((counts, employee) => {
@@ -37,6 +37,15 @@ export default function PayrollDetails() {
   const [hover, setHover] = useState(false);
   const [currentpositionId, setCurrentpositionId] = useState(null);
   const [positionFull, setPositionFull] = useState(positionCountsArray);
+
+  useEffect(() => {
+    if (positionCountsArray.length > 0) {
+      {
+        positionCountsArray[0].clicked = true;
+      }
+    }
+    setPositionFull(positionCountsArray);
+  }, []);
 
   const handlePostionFull = (positionId: any) => {
     setPositionFull((prevItems) => {
